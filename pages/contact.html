@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="gridLayout.css">
+<title>Giovanni's Pizza</title>
+<style>
+        article {
+          flex:1;
+        }
+        aside {
+          flex:1;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:rgb(100,130,100);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+        </style>
+</head>
+<body>
+  <h1 class="left"><i>Giovanni's Pizza</i></h1>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="locations.html">Locations</a></li>
+      <li><a href="specials.html">Specials</a></li>
+      <li><a class="active" href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+<h1>Contact Us</h1>
+<hr>
+<section>
+  <aside>
+<h2>Reservations</h2>
+<p> <b>Anchorage:</b> 630-962-2924</p>
+<p> <b>Fairbanks:</b> 480-465-7556</p>
+<h2>Catering</h2>
+<p> <b>Anchorage:</b> 800-867-5309</p>
+<p> <b>Fairbanks:</b> 480-465-9080</p>
+<h2>Customer Service</h2>
+<p> 480-465-7653 </p>
+</aside>
+<article>
+
+  <h2>Other Contact Info</h2>
+  <p><b>Email:</b> giovannisPizza@email.com</p>
+  <p><b>Mailing Address:</b></p>
+  <p>PO Box 1212</p>
+  <p>Valdez, AK 99686</p>
+  <form method="POST" action="https://formspree.io/ahwang2008@gmail.com">
+      <input type="email" name="email" placeholder="Your email">
+      <br>
+      <textarea rows="6" cols="50" name="message" placeholder="Your message"></textarea>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+</article>
+</section>
+<hr>
+
+
+
+<footer>
+  <P align=right>
+  <a href="https://github.com/autumnm3/cs260_CP1">github classroom repo</a>
+</P>
+</footer>
+</body>
+</html>
